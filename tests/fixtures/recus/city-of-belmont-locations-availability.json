@@ -1,0 +1,4348 @@
+[
+  {
+    "location": {
+      "tags": [],
+      "id": "99e7cd59-15cd-43aa-b0cc-9ed11f826840",
+      "name": "Alexander Courts",
+      "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e",
+      "timezone": "America/Los_Angeles",
+      "lat": "37.5268118",
+      "lng": "-122.2804528",
+      "reservationBuffer": 120,
+      "placeId": "ChIJu_kXE0efj4ARj7Z-tiwBUSk",
+      "defaultReservationWindow": 7,
+      "reservationReleaseTimeLocal": null,
+      "privateLessonReservationWindow": 7,
+      "instructorReservationReleaseTimeLocal": null,
+      "instructorReservationReleaseDay": null,
+      "courts": [
+        {
+          "id": "fcbda536-882f-44a2-9b27-18cd78b34fbe",
+          "locationId": "99e7cd59-15cd-43aa-b0cc-9ed11f826840",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Pickleball Court 1",
+          "publishedAt": "2025-09-10T23:00:01.379Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            }
+          ],
+          "sports": [
+            {
+              "id": "2b543be9-3013-403a-b24b-37d0fa023a47",
+              "sportId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "9f1a2b51-e97c-4ebb-aa57-98741590844e"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "7f265d37-b196-418b-b4f8-7338e583ddb9",
+              "groupId": null,
+              "courtId": "fcbda536-882f-44a2-9b27-18cd78b34fbe",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": "37.5273058",
+          "lng": "-122.2805195",
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:02:14.765Z",
+          "createdAt": "2025-04-04T21:42:32.538Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-18 18:30:00",
+            "2026-05-19 17:00:00",
+            "2026-05-19 17:30:00",
+            "2026-05-20 14:00:00",
+            "2026-05-20 14:30:00",
+            "2026-05-21 12:00:00",
+            "2026-05-21 12:30:00",
+            "2026-05-21 13:00:00",
+            "2026-05-21 13:30:00",
+            "2026-05-21 14:00:00",
+            "2026-05-21 14:30:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00",
+            "2026-05-25 16:00:00"
+          ]
+        },
+        {
+          "id": "9f1a2b51-e97c-4ebb-aa57-98741590844e",
+          "locationId": "99e7cd59-15cd-43aa-b0cc-9ed11f826840",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Tennis Court 1",
+          "publishedAt": "2025-09-15T15:36:11.338Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            }
+          ],
+          "sports": [
+            {
+              "id": "2cce480c-78e5-4dbd-a41e-6ab408974b7f",
+              "sportId": "bd745b6e-1dd6-43e2-a69f-06f094808a96"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "fcbda536-882f-44a2-9b27-18cd78b34fbe"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "90cbbb60-1acc-447d-9fea-70f08aa7646e",
+              "groupId": null,
+              "courtId": "9f1a2b51-e97c-4ebb-aa57-98741590844e",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": [
+              {
+                "url": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/site-9f1a2b51-e97c-4ebb-aa57-98741590844e/mainGallery/e33b3a48-2da8-450d-8f0c-9cd84369aad6.png?1743805889261"
+              },
+              {
+                "url": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/site-9f1a2b51-e97c-4ebb-aa57-98741590844e/mainGallery/5238a183-9487-4611-a2d6-62a32cd833cb.png?1743805901577"
+              },
+              {
+                "url": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/site-9f1a2b51-e97c-4ebb-aa57-98741590844e/mainGallery/a490183c-e8b1-4501-aef6-a52183bac49b.png?1743805908036"
+              }
+            ]
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": "37.5273058",
+          "lng": "-122.2805195",
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-15T15:36:12.224Z",
+          "createdAt": "2025-04-04T20:54:18.366Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-18 18:30:00",
+            "2026-05-19 17:00:00",
+            "2026-05-19 17:30:00",
+            "2026-05-20 14:00:00",
+            "2026-05-20 14:30:00",
+            "2026-05-21 12:00:00",
+            "2026-05-21 12:30:00",
+            "2026-05-21 13:00:00",
+            "2026-05-21 13:30:00",
+            "2026-05-21 14:00:00",
+            "2026-05-21 14:30:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00",
+            "2026-05-25 16:00:00"
+          ]
+        },
+        {
+          "id": "0c99d34e-c428-40d9-a4f3-743d4deb78ef",
+          "locationId": "99e7cd59-15cd-43aa-b0cc-9ed11f826840",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Tennis Court 2",
+          "publishedAt": "2025-09-10T23:01:19.614Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            }
+          ],
+          "sports": [
+            {
+              "id": "903d5ccd-14c0-46a8-9172-36eea3d8bbbe",
+              "sportId": "bd745b6e-1dd6-43e2-a69f-06f094808a96"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "7b0a290d-c183-45f7-93bb-5dc309264cd0"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "5df0fed0-3ec4-4c18-bb9d-05b91a02cfdd",
+              "groupId": null,
+              "courtId": "0c99d34e-c428-40d9-a4f3-743d4deb78ef",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": "37.5273058",
+          "lng": "-122.2805195",
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:01:20.278Z",
+          "createdAt": "2025-04-04T21:38:05.369Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-21 14:00:00",
+            "2026-05-21 14:30:00",
+            "2026-05-23 16:00:00",
+            "2026-05-24 16:00:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 11:00:00",
+            "2026-05-25 11:30:00",
+            "2026-05-25 12:00:00",
+            "2026-05-25 12:30:00",
+            "2026-05-25 13:00:00",
+            "2026-05-25 13:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00",
+            "2026-05-25 16:00:00"
+          ]
+        },
+        {
+          "id": "7b0a290d-c183-45f7-93bb-5dc309264cd0",
+          "locationId": "99e7cd59-15cd-43aa-b0cc-9ed11f826840",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Pickleball Court 2",
+          "publishedAt": "2025-09-10T23:00:24.619Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            }
+          ],
+          "sports": [
+            {
+              "id": "f052dd3a-1157-4c83-951a-c87743de3a82",
+              "sportId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "0c99d34e-c428-40d9-a4f3-743d4deb78ef"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "1ff7c7fb-0048-47d7-ba47-85ba9b472e28",
+              "groupId": null,
+              "courtId": "7b0a290d-c183-45f7-93bb-5dc309264cd0",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": "37.5273058",
+          "lng": "-122.2805195",
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:00:25.034Z",
+          "createdAt": "2025-04-04T21:47:12.358Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-21 14:00:00",
+            "2026-05-21 14:30:00",
+            "2026-05-23 16:00:00",
+            "2026-05-24 16:00:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 11:00:00",
+            "2026-05-25 11:30:00",
+            "2026-05-25 12:00:00",
+            "2026-05-25 12:30:00",
+            "2026-05-25 13:00:00",
+            "2026-05-25 13:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00",
+            "2026-05-25 16:00:00"
+          ]
+        }
+      ],
+      "formattedAddress": "409 Yorkshire Way, Belmont, CA 94002, USA",
+      "hoursOfOperation": "8:00am - 6:00pm",
+      "images": {
+        "detail": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-99e7cd59-15cd-43aa-b0cc-9ed11f826840/detail.png?1753826131709",
+        "thumbnail": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-99e7cd59-15cd-43aa-b0cc-9ed11f826840/thumbnail.png?1753826134846",
+        "mainGallery": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-99e7cd59-15cd-43aa-b0cc-9ed11f826840/gallery/mainGallery.png?1753826142488",
+        "smallGallery1": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-99e7cd59-15cd-43aa-b0cc-9ed11f826840/gallery/smallGallery1.png?1753826240029",
+        "smallGallery2": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-99e7cd59-15cd-43aa-b0cc-9ed11f826840/gallery/smallGallery2.png?1743798741010",
+        "pastReservation": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-99e7cd59-15cd-43aa-b0cc-9ed11f826840/pastReservation.png?1753826138616"
+      },
+      "image": null,
+      "accessInfo": "Limited street parking only.",
+      "gettingThereInfo": "Arrive via Marine View Ave or Yorkshire Way.",
+      "groupReservationWindow": null,
+      "reservationWindowExtendingGroupId": null
+    },
+    "distance": null
+  },
+  {
+    "location": {
+      "tags": [],
+      "id": "756355b6-f361-483e-af56-6321ce50d782",
+      "name": "Hallmark Courts",
+      "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e",
+      "timezone": "America/Los_Angeles",
+      "lat": "37.502872",
+      "lng": "-122.308677",
+      "reservationBuffer": 120,
+      "placeId": "ChIJ8xFtCH-fj4ART-FiJFYBhHg",
+      "defaultReservationWindow": 7,
+      "reservationReleaseTimeLocal": null,
+      "privateLessonReservationWindow": 0,
+      "instructorReservationReleaseTimeLocal": null,
+      "instructorReservationReleaseDay": null,
+      "courts": [
+        {
+          "id": "3fa817ad-4529-47cf-b0ae-a22c0c5b081c",
+          "locationId": "756355b6-f361-483e-af56-6321ce50d782",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Pickleball Court 1",
+          "publishedAt": "2025-09-10T23:03:54.836Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            }
+          ],
+          "sports": [
+            {
+              "id": "4dde05b0-39f1-4a60-8f59-5886d44a4b8b",
+              "sportId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "a8ab7944-c0b6-432f-bbed-89425a54e099"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "6888870e-f55e-4c71-99a8-82fcce1ff577",
+              "groupId": null,
+              "courtId": "3fa817ad-4529-47cf-b0ae-a22c0c5b081c",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": "37.5028658",
+          "lng": "-122.3086796",
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:03:55.251Z",
+          "createdAt": "2024-02-01T17:44:00.805Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-19 08:00:00",
+            "2026-05-19 08:30:00",
+            "2026-05-19 09:00:00",
+            "2026-05-19 09:30:00",
+            "2026-05-19 10:00:00",
+            "2026-05-19 10:30:00",
+            "2026-05-19 11:00:00",
+            "2026-05-19 11:30:00",
+            "2026-05-19 12:00:00",
+            "2026-05-19 12:30:00",
+            "2026-05-19 14:00:00",
+            "2026-05-19 14:30:00",
+            "2026-05-19 16:00:00",
+            "2026-05-19 16:30:00",
+            "2026-05-20 11:00:00",
+            "2026-05-20 11:30:00",
+            "2026-05-20 12:00:00",
+            "2026-05-20 12:30:00",
+            "2026-05-20 15:00:00",
+            "2026-05-20 15:30:00",
+            "2026-05-21 12:00:00",
+            "2026-05-21 12:30:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 12:00:00",
+            "2026-05-25 12:30:00",
+            "2026-05-25 13:00:00",
+            "2026-05-25 13:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00"
+          ]
+        },
+        {
+          "id": "b9b7f92a-0357-4b81-ab4a-d9f4208f7b01",
+          "locationId": "756355b6-f361-483e-af56-6321ce50d782",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Tennis Court 2",
+          "publishedAt": "2025-09-10T23:05:59.829Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            }
+          ],
+          "sports": [
+            {
+              "id": "f1a63696-8d60-412e-9710-4045a2c2c05c",
+              "sportId": "bd745b6e-1dd6-43e2-a69f-06f094808a96"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "4c161448-1f7b-402b-8eda-895cf8704678"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "d700e2e4-1e47-45d1-afc4-b83dee239b8c",
+              "groupId": null,
+              "courtId": "b9b7f92a-0357-4b81-ab4a-d9f4208f7b01",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": null,
+          "lng": null,
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:06:00.292Z",
+          "createdAt": "2024-02-01T17:42:09.522Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-19 08:00:00",
+            "2026-05-19 08:30:00",
+            "2026-05-19 09:00:00",
+            "2026-05-19 09:30:00",
+            "2026-05-19 10:00:00",
+            "2026-05-19 10:30:00",
+            "2026-05-19 11:00:00",
+            "2026-05-19 11:30:00",
+            "2026-05-19 12:00:00",
+            "2026-05-19 12:30:00",
+            "2026-05-19 15:00:00",
+            "2026-05-19 15:30:00",
+            "2026-05-20 12:00:00",
+            "2026-05-20 12:30:00",
+            "2026-05-20 13:00:00",
+            "2026-05-20 13:30:00",
+            "2026-05-20 15:00:00",
+            "2026-05-20 15:30:00",
+            "2026-05-21 08:00:00",
+            "2026-05-21 08:30:00",
+            "2026-05-21 13:00:00",
+            "2026-05-21 13:30:00",
+            "2026-05-21 14:00:00",
+            "2026-05-21 14:30:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 11:00:00",
+            "2026-05-25 11:30:00",
+            "2026-05-25 12:00:00",
+            "2026-05-25 12:30:00",
+            "2026-05-25 13:00:00",
+            "2026-05-25 13:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00",
+            "2026-05-25 16:00:00"
+          ]
+        },
+        {
+          "id": "a8ab7944-c0b6-432f-bbed-89425a54e099",
+          "locationId": "756355b6-f361-483e-af56-6321ce50d782",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Tennis Court 1",
+          "publishedAt": "2025-09-10T23:05:37.172Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            }
+          ],
+          "sports": [
+            {
+              "id": "b5345d46-fca9-47f0-be0f-d20e14ce3279",
+              "sportId": "bd745b6e-1dd6-43e2-a69f-06f094808a96"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "3fa817ad-4529-47cf-b0ae-a22c0c5b081c"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "4b617edb-2788-4994-b72f-64360f1fb4bd",
+              "groupId": null,
+              "courtId": "a8ab7944-c0b6-432f-bbed-89425a54e099",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": null,
+          "lng": null,
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:05:37.667Z",
+          "createdAt": "2024-02-01T17:39:03.053Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-19 08:00:00",
+            "2026-05-19 08:30:00",
+            "2026-05-19 09:00:00",
+            "2026-05-19 09:30:00",
+            "2026-05-19 10:00:00",
+            "2026-05-19 10:30:00",
+            "2026-05-19 11:00:00",
+            "2026-05-19 11:30:00",
+            "2026-05-19 12:00:00",
+            "2026-05-19 12:30:00",
+            "2026-05-19 14:00:00",
+            "2026-05-19 14:30:00",
+            "2026-05-19 16:00:00",
+            "2026-05-19 16:30:00",
+            "2026-05-20 11:00:00",
+            "2026-05-20 11:30:00",
+            "2026-05-20 12:00:00",
+            "2026-05-20 12:30:00",
+            "2026-05-20 15:00:00",
+            "2026-05-20 15:30:00",
+            "2026-05-21 12:00:00",
+            "2026-05-21 12:30:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 12:00:00",
+            "2026-05-25 12:30:00",
+            "2026-05-25 13:00:00",
+            "2026-05-25 13:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00"
+          ]
+        },
+        {
+          "id": "4c161448-1f7b-402b-8eda-895cf8704678",
+          "locationId": "756355b6-f361-483e-af56-6321ce50d782",
+          "type": "court",
+          "defaultReservationWindowDays": null,
+          "reservationReleaseTimeLocal": null,
+          "maxReservationTime": "02:00:00",
+          "courtNumber": "Pickleball Court 2",
+          "publishedAt": "2025-09-10T23:05:11.070Z",
+          "bufferMinutesBetweenReservations": 0,
+          "slots": [
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 5
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 3
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 6
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 2
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 1
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 4
+            },
+            {
+              "type": "PRIVATE",
+              "openFrom": "08:00:00",
+              "openTo": "19:00:00",
+              "dayOfWeek": 0
+            }
+          ],
+          "sports": [
+            {
+              "id": "d8ef10d9-69b8-406e-81e3-dab7fb0054d3",
+              "sportId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
+            }
+          ],
+          "overlaps": [
+            {
+              "id": "b9b7f92a-0357-4b81-ab4a-d9f4208f7b01"
+            }
+          ],
+          "reservationWindows": [
+            {
+              "id": "34a27c21-1154-4d67-bf83-5b549f8e70c4",
+              "groupId": null,
+              "courtId": "4c161448-1f7b-402b-8eda-895cf8704678",
+              "maxHours": 168,
+              "minHours": null,
+              "releaseTimeLocal": null,
+              "organizationId": "6b278573-001f-48c9-9ee8-c47ddd66be7e"
+            }
+          ],
+          "config": {
+            "pricing": {
+              "rules": [],
+              "default": {
+                "type": "perHour",
+                "cents": 0
+              }
+            },
+            "deposits": {},
+            "bookingPolicies": [
+              {
+                "type": "fixed-slots",
+                "slots": [
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 1,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 2,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 3,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 4,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 5,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 6,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "09:00:00",
+                    "startTimeLocal": "08:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "10:00:00",
+                    "startTimeLocal": "09:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "11:00:00",
+                    "startTimeLocal": "10:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "12:00:00",
+                    "startTimeLocal": "11:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "13:00:00",
+                    "startTimeLocal": "12:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "14:00:00",
+                    "startTimeLocal": "13:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "15:00:00",
+                    "startTimeLocal": "14:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "16:00:00",
+                    "startTimeLocal": "15:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "17:00:00",
+                    "startTimeLocal": "16:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "18:00:00",
+                    "startTimeLocal": "17:00:00"
+                  },
+                  {
+                    "dayOfWeek": 7,
+                    "endTimeLocal": "19:00:00",
+                    "startTimeLocal": "18:00:00"
+                  }
+                ],
+                "isActive": true
+              }
+            ]
+          },
+          "amenities": {
+            "amenityTagIds": []
+          },
+          "capacity": 0,
+          "images": {
+            "map": [],
+            "mainGallery": []
+          },
+          "isInstantBookable": true,
+          "allowedReservationDurations": {
+            "minutes": [
+              60
+            ]
+          },
+          "reservationBufferMinutesOverride": null,
+          "noReservationText": "Not Reservable",
+          "glCode": null,
+          "lat": null,
+          "lng": null,
+          "descriptionMd": "",
+          "rulesMd": "",
+          "taxBps": 0,
+          "updatedAt": "2025-09-10T23:05:11.328Z",
+          "createdAt": "2024-02-01T17:45:43.588Z",
+          "allowPrivateLessons": true,
+          "availableSlots": [
+            "2026-05-19 08:00:00",
+            "2026-05-19 08:30:00",
+            "2026-05-19 09:00:00",
+            "2026-05-19 09:30:00",
+            "2026-05-19 10:00:00",
+            "2026-05-19 10:30:00",
+            "2026-05-19 11:00:00",
+            "2026-05-19 11:30:00",
+            "2026-05-19 12:00:00",
+            "2026-05-19 12:30:00",
+            "2026-05-19 15:00:00",
+            "2026-05-19 15:30:00",
+            "2026-05-20 12:00:00",
+            "2026-05-20 12:30:00",
+            "2026-05-20 13:00:00",
+            "2026-05-20 13:30:00",
+            "2026-05-20 15:00:00",
+            "2026-05-20 15:30:00",
+            "2026-05-21 08:00:00",
+            "2026-05-21 08:30:00",
+            "2026-05-21 13:00:00",
+            "2026-05-21 13:30:00",
+            "2026-05-21 14:00:00",
+            "2026-05-21 14:30:00",
+            "2026-05-25 08:00:00",
+            "2026-05-25 08:30:00",
+            "2026-05-25 11:00:00",
+            "2026-05-25 11:30:00",
+            "2026-05-25 12:00:00",
+            "2026-05-25 12:30:00",
+            "2026-05-25 13:00:00",
+            "2026-05-25 13:30:00",
+            "2026-05-25 14:00:00",
+            "2026-05-25 14:30:00",
+            "2026-05-25 15:00:00",
+            "2026-05-25 15:30:00",
+            "2026-05-25 16:00:00"
+          ]
+        }
+      ],
+      "formattedAddress": "2599 Hallmark Dr, Belmont, CA 94002, USA",
+      "hoursOfOperation": "8:00am - 6:00pm",
+      "images": {
+        "detail": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-756355b6-f361-483e-af56-6321ce50d782/detail.png?1753826287759",
+        "thumbnail": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-756355b6-f361-483e-af56-6321ce50d782/thumbnail.png?1753826292171",
+        "mainGallery": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-756355b6-f361-483e-af56-6321ce50d782/gallery/mainGallery.png?1753826299937",
+        "smallGallery1": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-756355b6-f361-483e-af56-6321ce50d782/gallery/smallGallery1.png?1753826346247",
+        "smallGallery2": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-756355b6-f361-483e-af56-6321ce50d782/gallery/smallGallery2.png?1743809389090",
+        "pastReservation": "https://prod-rec-tech-img-bucket-8656aa2.s3.us-west-1.amazonaws.com/location-756355b6-f361-483e-af56-6321ce50d782/pastReservation.png?1753826295744"
+      },
+      "image": null,
+      "accessInfo": "Limited street parking. ",
+      "gettingThereInfo": "Arrive via Hallmark Drive. ",
+      "groupReservationWindow": null,
+      "reservationWindowExtendingGroupId": null
+    },
+    "distance": null
+  }
+]

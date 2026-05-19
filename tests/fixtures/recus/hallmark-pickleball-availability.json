@@ -1,0 +1,18 @@
+{
+  "data": {
+    "slots": [
+      {
+        "id": "slot-hallmark-pickleball-a-20260520-0800",
+        "court": {
+          "id": "site-hallmark-pickleball-a",
+          "name": "Pickleball Court A"
+        },
+        "sport": "pickleball",
+        "startsAt": "2026-05-20T08:00:00-07:00",
+        "endsAt": "2026-05-20T09:30:00-07:00",
+        "available": true,
+        "bookingUrl": "https://www.rec.us/reservations/slot-hallmark-pickleball-a-20260520-0800"
+      }
+    ]
+  }
+}

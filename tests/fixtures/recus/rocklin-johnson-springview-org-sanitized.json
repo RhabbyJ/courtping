@@ -1,0 +1,35 @@
+[
+  {
+    "location": {
+      "id": "bad275ad-738b-4e8d-9707-debd562b058f",
+      "name": "Johnson Springview Park: Courts",
+      "timezone": "America/Los_Angeles",
+      "courts": [
+        {
+          "id": "d0517c95-e3d7-4d2d-978a-1dce12d2daeb",
+          "locationId": "bad275ad-738b-4e8d-9707-debd562b058f",
+          "type": "court",
+          "courtNumber": "Court 3 - Tennis",
+          "sports": [
+            {
+              "id": "402b0ac9-c5b2-4f03-9e48-5d8f7397322a",
+              "sportId": "bd745b6e-1dd6-43e2-a69f-06f094808a96"
+            }
+          ],
+          "availableSlots": [
+            "2026-05-18 17:30:00",
+            "2026-05-18 18:00:00",
+            "2026-05-18 18:30:00"
+          ],
+          "allowedReservationDurations": {
+            "minutes": [
+              30,
+              60,
+              90
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

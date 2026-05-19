@@ -1,0 +1,28 @@
+{
+  "location": {
+    "id": "756355b6-f361-483e-af56-6321ce50d782",
+    "name": "Hallmark Park Courts",
+    "timezone": "America/Los_Angeles"
+  },
+  "availability": [
+    {
+      "id": "slot-hallmark-tennis-1-20260519-1700",
+      "siteId": "site-hallmark-tennis-1",
+      "siteName": "Tennis Court 1",
+      "sport": "tennis",
+      "startTime": "2026-05-19T17:00:00-07:00",
+      "endTime": "2026-05-19T18:00:00-07:00",
+      "status": "available",
+      "reservationUrl": "/reservations/slot-hallmark-tennis-1-20260519-1700"
+    },
+    {
+      "id": "slot-hallmark-tennis-1-20260519-1800",
+      "siteId": "site-hallmark-tennis-1",
+      "siteName": "Tennis Court 1",
+      "sport": "tennis",
+      "startTime": "2026-05-19T18:00:00-07:00",
+      "endTime": "2026-05-19T19:00:00-07:00",
+      "status": "booked"
+    }
+  ]
+}

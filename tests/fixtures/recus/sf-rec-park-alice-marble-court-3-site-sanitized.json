@@ -1,0 +1,38 @@
+{
+  "data": {
+    "2026-05-25": {
+      "18:00:00": {
+        "availableDurationsMinutes": [
+          90
+        ]
+      },
+      "16:30:00": {
+        "availableDurationsMinutes": [
+          90
+        ]
+      },
+      "15:00:00": {
+        "availableDurationsMinutes": [
+          90
+        ]
+      }
+    },
+    "2026-05-24": {
+      "18:00:00": {
+        "availableDurationsMinutes": [
+          90
+        ]
+      },
+      "16:30:00": {
+        "availableDurationsMinutes": [
+          90
+        ]
+      },
+      "07:30:00": {
+        "availableDurationsMinutes": [
+          90
+        ]
+      }
+    }
+  }
+}

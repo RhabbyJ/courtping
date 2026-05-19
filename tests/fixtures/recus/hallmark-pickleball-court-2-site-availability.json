@@ -1,0 +1,102 @@
+{
+  "data": {
+    "2026-05-25": {
+      "15:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "14:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "13:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "12:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "11:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "08:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      }
+    },
+    "2026-05-21": {
+      "14:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "13:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "08:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      }
+    },
+    "2026-05-20": {
+      "15:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "13:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "12:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      }
+    },
+    "2026-05-19": {
+      "15:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "12:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "11:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "10:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "09:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      },
+      "08:00:00": {
+        "availableDurationsMinutes": [
+          60
+        ]
+      }
+    }
+  }
+}

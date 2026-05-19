@@ -1,0 +1,29 @@
+{
+  "name": "courtping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "import:facilities": "node scripts/import-facilities.mjs data/facilities.sample.csv",
+    "recus:live-check": "node scripts/recus-live-check.cjs",
+    "test": "vitest run --config vitest.config.mjs",
+    "test:watch": "vitest --config vitest.config.mjs"
+  },
+  "dependencies": {
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "@next/swc-win32-x64-msvc": "^15.5.18"
+  }
+}

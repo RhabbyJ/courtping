@@ -1,0 +1,35 @@
+[
+  {
+    "location": {
+      "id": "81cd2b08-8ea6-40ee-8c89-aeba92506576",
+      "name": "Alice Marble",
+      "timezone": "America/Los_Angeles",
+      "courts": [
+        {
+          "id": "c520577d-2c22-4e4e-8a92-c7709b0df07b",
+          "locationId": "81cd2b08-8ea6-40ee-8c89-aeba92506576",
+          "type": "court",
+          "courtNumber": "Court 3",
+          "sports": [
+            {
+              "id": "5218f07c-4901-4c7c-9401-8fc9a832c67e",
+              "sportId": "bd745b6e-1dd6-43e2-a69f-06f094808a96"
+            }
+          ],
+          "availableSlots": [
+            "2026-05-19 07:30:00",
+            "2026-05-19 08:00:00",
+            "2026-05-19 08:30:00"
+          ],
+          "allowedReservationDurations": {
+            "minutes": [
+              30,
+              60,
+              90
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
